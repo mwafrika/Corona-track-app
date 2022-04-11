@@ -1,58 +1,64 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# MV-Module2-capstone
 
-> Description the project.
+> **Space-Travelers-Hub** is a web application displaying real live data from the SpaceX API. Allows users to book rockets, to book dragons and join selected space missions. You can also cancel any reservation you wish.
 
+> **The API used for this project are:**
+
+- [Rockets](https://api.spacexdata.com/v3/rockets)
+- [Missions](https://api.spacexdata.com/v3/missions)
+- [Dragons](https://api.spacexdata.com/v3/dragons)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/392c8dc5-0810-40ed-9f79-134a80d7fcab/deploy-status)](https://app.netlify.com/sites/space-traveller/deploys)
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+## Screen shoot
+![Peek 2022-04-08 13-26](https://user-images.githubusercontent.com/92645881/162435485-4f45d93d-a1d0-4394-be36-88ef9c9b8776.gif)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**Prerequisites:** A Web Browser (preferably FireFox or Chrome)
 
+### **Option 1**
 
-To get a local copy up and running follow these simple example steps.
+#### Use the live Website
 
-### Prerequisites
+[Space traveller hub](https://space-traveller.netlify.app/dragons)
 
-### Setup
+### **Option 2**
 
-### Install
+#### Set up your own copy locally
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone [the GitHub Repository](https://github.com/mwafrika/space_traveller_hub)
+- Go to the Project `cd space_traveller_hub`
+- Run `npm install` to install the _dependencies_ Run `npm start` to run the live server.
 
 ## Authors
 
-👤 **Author1**
+👤 **Mwafrika Josué**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@mwafrika](https://github.com/mwafrika)
+- Twitter: [@mwafrikamufung1](https://twitter.com/mwafrikamufung1)
+- LinkedIn: [@mwafrika-mufungizi](https://linkedin.com/in/mwafrika-mufungizi)
 
-👤 **Author2**
+👤 **Zelalem Mekonnen**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@zmekonnen251](https://github.com/zmekonnen251)
+- Gmail: [@mekonnen](mekonnen.zelalem251@gmail.com)
+- LinkedIn: [@zelalem-g-mekonnen](https://www.linkedin.com/in/zelalem-g-mekonnen/)
 
-## 🤝 Contributing
+👤 **Mnemba Chambuya**
+
+- GitHub: [@mnekx](https://github.com/mnekx)
+- Gmail: [@mnemba](mnemba.chambuya@gmail.com)
+- LinkedIn: [mnemba-chambuya](https://www.linkedin.com/in/mnemba-chambuya/)
+
+## Contributors
 
 Contributions, issues, and feature requests are welcome!
 
@@ -64,9 +70,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Space traveller API](https://api.spacexdata.com/v3/)
 
 ## 📝 License
 
