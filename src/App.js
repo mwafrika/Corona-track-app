@@ -1,9 +1,14 @@
 /* eslint-disable jsx-quotes */
+import React from 'react';
+import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
+import Cases from './components/cases';
+
 const App = () => (
-  <div className='App'>
-    <header className='App-header' />
-    <h1 className='text-3xl text-slate-400 font-bold'>My website</h1>
-  </div>
+  <Router>
+    <Routes>
+      <Route path='/' index element={<Cases />} />
+    </Routes>
+  </Router>
 );
 
 export default App;

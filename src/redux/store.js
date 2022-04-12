@@ -7,7 +7,7 @@ import covidReducer from './reducers';
 const intialState = {};
 
 const rootReducer = combineReducers({
-  dragons: covidReducer,
+  cases: covidReducer,
 });
 
 const store = createStore(
