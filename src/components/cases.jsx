@@ -1,25 +1,29 @@
-import React, { useEffect } from 'react';
+/* eslint-disable jsx-quotes */
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable camelcase */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getAllCases } from '../redux/actions';
+import { getSingleCases } from '../redux/actions';
+import Case from './case';
 
 const Cases = () => {
   const dispatch = useDispatch();
-  const cases = useSelector((state) => state.cases || []);
-  console.log('My cases', cases);
-  useEffect(() => {
-    dispatch(getAllCases());
-  }, []);
+  const { cases } = useSelector((state) => state.cases);
 
   return (
-    <div>
-      {cases.length > 0
-        ? cases.map((item) => <div key={item.id}>{item.name}</div>)
-        : []}
+    <div className='flex justify-between'>
+      <div>
+        {cases.map((item) => (
+          <div key={item.id} onClick={() => dispatch(getSingleCases(item.id))}>
+            {item.name}
+          </div>
+        ))}
+      </div>
+      <Case />
     </div>
-    // <p>data to be</p>
   );
 };
-
-/* <p key={case.id}>{case.name}</p> */
 
 export default Cases;

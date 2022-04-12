@@ -2,18 +2,11 @@ import { GET_ALL, GET_SINGLE } from './actionType';
 
 const intialState = {
   cases: [],
-  case: {},
+  singleCase: {},
 };
 const reducers = (state = intialState, action) => {
   switch (action.type) {
     case GET_ALL:
-      console.log(
-        {
-          ...state,
-          cases: action.payload,
-        },
-        'my reducer',
-      );
       return {
         ...state,
         cases: action.payload,
@@ -21,7 +14,7 @@ const reducers = (state = intialState, action) => {
     case GET_SINGLE:
       return {
         ...state,
-        item: action.payload,
+        singleCase: action.payload,
       };
     default:
       return state;
