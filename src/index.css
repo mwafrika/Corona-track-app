@@ -1,4 +1,14 @@
 /* stylelint-disable scss/at-rule-no-unknown */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Lato', 'Gill Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #e70983; */
+  background-color: rgb(2 132 199 / 1);
+}

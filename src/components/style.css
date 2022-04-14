@@ -1,0 +1,32 @@
+/* .list:nth-child(3n - 2) {
+  background-color: green;
+} */
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+
+.list-container {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: 50% 50%;
+  -ms-grid-columns: 50% 50%;
+}
+
+.list-container a {
+  padding: 15px;
+  height: 12rem;
+  background-color: rgb(14 165 233 / 1);
+  color: white;
+  transition: all 0.3s;
+  /* background-color: #e70983; */
+}
+
+.list-container a:nth-child(4n),
+.list-container a:nth-child(4n + 1) {
+  background-color: rgb(56 189 248 / 1);
+  /* background-color: #fd33a2; */
+  color: white;
+}

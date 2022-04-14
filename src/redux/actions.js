@@ -15,11 +15,15 @@ export const getAllCases = () => async (dispatch) => {
     regions: item.regions,
     today_confirmed: item.today_confirmed,
   }));
-  console.log(selectedValues, 'my Actions');
+
+  const withRegions = Object.values(selectedValues).filter(
+    (region) => region.regions.length !== 0,
+  );
+  console.log(withRegions, 'my Actions');
 
   dispatch({
     type: GET_ALL,
-    payload: selectedValues,
+    payload: withRegions,
   });
 };
 
