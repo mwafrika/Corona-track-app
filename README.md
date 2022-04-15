@@ -8,6 +8,8 @@
 
 - [NARATIVE API](https://api.covid19tracking.narrativa.com/api/2020-03-22)
 
+# [LOOM VIDEO](https://www.loom.com/share/70fae6e135434ca7ac7b63aa60018139)
+
 ## Built With
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
