@@ -21,11 +21,9 @@ export const getAllCases = () => async (dispatch) => {
     today_confirmed: item.today_confirmed,
   }));
 
-  const withRegions = Object.values(selectedValues).filter(
-    (region) => region.regions.length !== 0,
-  );
-  console.log(withRegions, 'my Actions');
-
+  // const withRegions = Object.values(selectedValues).filter(
+  //   (region) => region.regions.length !== 0,
+  // );
   dispatch({
     type: GET_ALL,
     payload: selectedValues,
@@ -40,7 +38,6 @@ export const getSingleCases = (id) => async (dispatch) => {
     },
   } = data;
 
-  // const countryArray = Object.values(countries);
   const selectedValues = Object.values(countries).map((item) => ({
     id: item.id,
     name: item.name,
@@ -48,7 +45,6 @@ export const getSingleCases = (id) => async (dispatch) => {
     today_confirmed: item.today_confirmed,
   }));
 
-  console.log(data, 'Single Action');
   dispatch({
     type: GET_SINGLE,
     payload: selectedValues,
@@ -56,7 +52,6 @@ export const getSingleCases = (id) => async (dispatch) => {
 };
 
 export const searchCases = (search) => async (dispatch) => {
-  console.log(search, 'my dispatch');
   dispatch({
     type: SEARCH_CASES,
     payload: search,
@@ -64,7 +59,6 @@ export const searchCases = (search) => async (dispatch) => {
 };
 
 export const searchRegions = (search) => async (dispatch) => {
-  console.log(search, 'my dispatch');
   dispatch({
     type: SEARCH_REGIONS,
     payload: search,

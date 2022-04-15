@@ -2,9 +2,9 @@
 import React, { useEffect } from 'react';
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import Cases from './components/cases';
+import Cases from './components/countries';
 import { getAllCases } from './redux/actions';
-import Case from './components/case';
+import Case from './components/country';
 import { retrieveCases } from './redux/api';
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path='/' index element={<Cases />} />
-        <Route path='/country/:id' index element={<Case />} />
+        <Route path='/country/:id' element={<Case />} />
       </Routes>
     </Router>
   );

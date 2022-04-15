@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable jsx-quotes */
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -40,8 +39,11 @@ const NavBar = () => {
             <div className='w-[_48%] gap-y-4 flex flex-col'>
               <p className='text-3xl font-bold'>Europe</p>
               <span>
-                <b>{total}</b> cases
-              </span>{' '}
+                <b>{total}</b>
+                {' '}
+                cases
+              </span>
+              {' '}
             </div>
           </div>
         </div>

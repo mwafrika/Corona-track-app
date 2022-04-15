@@ -1,8 +1,4 @@
 /* eslint-disable jsx-quotes */
-/* eslint-disable react/jsx-one-expression-per-line */
-/* eslint-disable camelcase */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
@@ -22,12 +18,11 @@ const Cases = () => {
   const [search, setSearch] = useState(searchCase);
   const navigate = useNavigate();
   const countries = cases.filter((country) => country.name.toLowerCase().includes(search));
-  // filteredCountries(countries);
+
   const OnChange = (event) => {
     navigate(event.target.value ? `?search=${event.target.value}` : '');
     setSearch(event.target.value);
   };
-  console.log(query, 'My search tester');
 
   useEffect(() => {
     dispatch(getAllCases());

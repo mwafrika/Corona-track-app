@@ -1,14 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# MV-Module2-capstone
+# Module3-capstone
 
-> **Space-Travelers-Hub** is a web application displaying real live data from the SpaceX API. Allows users to book rockets, to book dragons and join selected space missions. You can also cancel any reservation you wish.
+> **COVID-19 TRACKER WEB APP** is a web app that helps people track all cases of affected people around the world. Each country has a total number of affected people too. But we also have a total number of all cases in the world. Please keep in mind that each country has its own list of regions, and each region has a total number of affected people.
 
-> **The API used for this project are:**
+> **The API used for this project is:**
 
-- [Rockets](https://api.spacexdata.com/v3/rockets)
-- [Missions](https://api.spacexdata.com/v3/missions)
-- [Dragons](https://api.spacexdata.com/v3/dragons)
+- [NARATIVE API](https://api.covid19tracking.narrativa.com/api/2020-03-22)
 
 ## Built With
 
@@ -16,9 +14,13 @@
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/392c8dc5-0810-40ed-9f79-134a80d7fcab/deploy-status)](https://app.netlify.com/sites/space-traveller/deploys)
 
-## Screen shoot
-![Peek 2022-04-08 13-26](https://user-images.githubusercontent.com/92645881/162435485-4f45d93d-a1d0-4394-be36-88ef9c9b8776.gif)
+## Screen shoot 1
 
+![Screenshot 1](./public/images/combine_images.png)
+
+## Screen shoot 2
+
+![Screenshot 2](./public/images/combine_image.png)
 
 ## Getting Started
 
@@ -34,8 +36,8 @@
 
 #### Set up your own copy locally
 
-- Clone [the GitHub Repository](https://github.com/mwafrika/space_traveller_hub)
-- Go to the Project `cd space_traveller_hub`
+- Clone [the GitHub Repository](https://github.com/mwafrika/Corona-track-app)
+- Go to the Project `cd Corona-track-app`
 - Run `npm install` to install the _dependencies_ Run `npm start` to run the live server.
 
 ## Authors
@@ -45,18 +47,6 @@
 - GitHub: [@mwafrika](https://github.com/mwafrika)
 - Twitter: [@mwafrikamufung1](https://twitter.com/mwafrikamufung1)
 - LinkedIn: [@mwafrika-mufungizi](https://linkedin.com/in/mwafrika-mufungizi)
-
-👤 **Zelalem Mekonnen**
-
-- GitHub: [@zmekonnen251](https://github.com/zmekonnen251)
-- Gmail: [@mekonnen](mekonnen.zelalem251@gmail.com)
-- LinkedIn: [@zelalem-g-mekonnen](https://www.linkedin.com/in/zelalem-g-mekonnen/)
-
-👤 **Mnemba Chambuya**
-
-- GitHub: [@mnekx](https://github.com/mnekx)
-- Gmail: [@mnemba](mnemba.chambuya@gmail.com)
-- LinkedIn: [mnemba-chambuya](https://www.linkedin.com/in/mnemba-chambuya/)
 
 ## Contributors
 
@@ -70,7 +60,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Space traveller API](https://api.spacexdata.com/v3/)
+- [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
 ## 📝 License
 

@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable jsx-quotes */
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,7 +10,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = ({ confirmed, name }) => (
-
   <>
     <div className='h-10 w-full flex justify-between px-4 items-center bg-sky-500 text-white'>
       <Link to='/'>
@@ -40,8 +38,11 @@ const NavBar = ({ confirmed, name }) => (
           <div className='w-[_48%] gap-y-4 flex flex-col'>
             <p className='text-3xl font-bold'>{name}</p>
             <span>
-              <b>{confirmed}</b> cases
-            </span>{' '}
+              <b>{confirmed}</b>
+              {' '}
+              cases
+            </span>
+            {' '}
           </div>
         </div>
       </div>
