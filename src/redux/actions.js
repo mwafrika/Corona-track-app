@@ -1,4 +1,9 @@
-import { GET_ALL, GET_SINGLE } from './actionType';
+import {
+  GET_ALL,
+  GET_SINGLE,
+  SEARCH_CASES,
+  SEARCH_REGIONS,
+} from './actionType';
 import * as API from './api';
 
 export const getAllCases = () => async (dispatch) => {
@@ -23,7 +28,7 @@ export const getAllCases = () => async (dispatch) => {
 
   dispatch({
     type: GET_ALL,
-    payload: withRegions,
+    payload: selectedValues,
   });
 };
 
@@ -43,9 +48,25 @@ export const getSingleCases = (id) => async (dispatch) => {
     today_confirmed: item.today_confirmed,
   }));
 
-  console.log(selectedValues, 'Single Action');
+  console.log(data, 'Single Action');
   dispatch({
     type: GET_SINGLE,
     payload: selectedValues,
+  });
+};
+
+export const searchCases = (search) => async (dispatch) => {
+  console.log(search, 'my dispatch');
+  dispatch({
+    type: SEARCH_CASES,
+    payload: search,
+  });
+};
+
+export const searchRegions = (search) => async (dispatch) => {
+  console.log(search, 'my dispatch');
+  dispatch({
+    type: SEARCH_REGIONS,
+    payload: search,
   });
 };

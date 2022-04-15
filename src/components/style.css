@@ -1,7 +1,3 @@
-/* .list:nth-child(3n - 2) {
-  background-color: green;
-} */
-
 .card {
   display: flex;
   justify-content: space-between;
@@ -21,12 +17,46 @@
   background-color: rgb(14 165 233 / 1);
   color: white;
   transition: all 0.3s;
-  /* background-color: #e70983; */
 }
 
 .list-container a:nth-child(4n),
 .list-container a:nth-child(4n + 1) {
   background-color: rgb(56 189 248 / 1);
-  /* background-color: #fd33a2; */
   color: white;
+}
+
+@media (min-width: 320px) {
+  .list-container {
+    grid-template-columns: 50% 50%;
+    -ms-grid-columns: 50% 50%;
+  }
+
+  .regions {
+    grid-template-columns: 50% 50%;
+    -ms-grid-columns: 50% 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .list-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    -ms-grid-columns: repeat(4, 25%);
+  }
+
+  .regions {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    -ms-grid-columns: repeat(4, 25%);
+  }
+
+  .regions li:nth-child(4n),
+  .regions li:nth-child(4n + 1) {
+    background-color: rgb(56 189 248 / 1);
+    color: white;
+  }
+
+  .list-container a {
+    border: 0.1px solid rgb(23, 118, 158);
+  }
 }

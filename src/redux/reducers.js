@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+/* eslint-disable no-case-declarations */
 import { GET_ALL, GET_SINGLE } from './actionType';
 
 const intialState = {
@@ -12,10 +14,18 @@ const reducers = (state = intialState, action) => {
         cases: action.payload,
       };
     case GET_SINGLE:
+      console.log(
+        {
+          ...state,
+          singleCase: action.payload,
+        },
+        'my single red',
+      );
       return {
         ...state,
         singleCase: action.payload,
       };
+
     default:
       return state;
   }

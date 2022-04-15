@@ -28,7 +28,7 @@ const NavBar = () => {
       </div>
       <div className='w-full h-[_16rem] bg-sky-600 flex items-center'>
         <div className='mx-auto flex items-center flex-col gap-y-8 justify-between text-2xl text-white'>
-          <h1 className='font-bold'>Welcome to covid tracker</h1>
+          <h1 className='font-bold text-4xl'>Welcome to covid tracker</h1>
           <div className='flex gap-y-3 justify-between w-[_20rem] items-center'>
             <div className='h-3/4 w-[_45%]'>
               <img
