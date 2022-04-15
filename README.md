@@ -26,15 +26,15 @@
 
 **Prerequisites:** A Web Browser (preferably FireFox or Chrome)
 
-### **Option 1**
+## **Option 1**
 
-#### Use the live Website
+### Use the live Website
 
-[Space traveller hub](https://space-traveller.netlify.app/dragons)
+[Space traveller hub](https://covid-app-tracking.netlify.app)
 
-### **Option 2**
+## **Option 2**
 
-#### Set up your own copy locally
+### Set up your own copy locally
 
 - Clone [the GitHub Repository](https://github.com/mwafrika/Corona-track-app)
 - Go to the Project `cd Corona-track-app`
