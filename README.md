@@ -2,7 +2,7 @@
 
 # Module3-capstone
 
-> **COVID-19 TRACKER WEB APP** is a web app that helps people track all cases of affected people around the world. Each country has a total number of affected people too. But we also have a total number of all cases in the world. Please keep in mind that each country has its own list of regions, and each region has a total number of affected people.
+> **COVID-19 TRACKER WEB APP** is a web app created with react-redux that helps people track all cases of affected people around the world. Each country has a total number of affected people too. But we also have a total number of all cases in the world. Please keep in mind that each country has its own list of regions, and each region has a total number of affected people.
 
 > **The API used for this project is:**
 
