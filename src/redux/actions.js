@@ -21,9 +21,6 @@ export const getAllCases = () => async (dispatch) => {
     today_confirmed: item.today_confirmed,
   }));
 
-  // const withRegions = Object.values(selectedValues).filter(
-  //   (region) => region.regions.length !== 0,
-  // );
   dispatch({
     type: GET_ALL,
     payload: selectedValues,

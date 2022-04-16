@@ -30,7 +30,7 @@
 
 #### Use the live Website
 
-[Space traveller hub](https://space-traveller.netlify.app/dragons)
+[Space traveller hub](https://covid-app-tracking.netlify.app)
 
 ### **Option 2**
 
